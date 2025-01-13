@@ -3,7 +3,11 @@
 
 ReadInput::ReadInput(){
     this->input = "";
-}
+};
+
+ReadInput::~ReadInput(){
+    this->input = "";
+};
 
 void ReadInput::readInput(void) {
     std::string buffer = "";
@@ -11,8 +15,8 @@ void ReadInput::readInput(void) {
     std::getline(std::cin, buffer);
     this->input.assign(buffer);
     return;
-}
+};
 
-std::string ReadInput::getInput(void){
+std::string ReadInput::getInput(void) const{
     return this->input;
-}
+};

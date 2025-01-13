@@ -6,10 +6,10 @@
 class ReadInput {
 public:
     ReadInput();
-   // ~ReadInput();
+   ~ReadInput();
 
     void readInput(void);
-    std::string getInput(void);
+    std::string getInput(void) const;
 
 private:
     std::string input;

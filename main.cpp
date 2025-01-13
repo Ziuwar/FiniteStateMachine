@@ -6,14 +6,12 @@ int main(int argc, char** argv){
     Control control;
 
     while(1){
-
         Input1.readInput();
 
         control.toggle();
         control.toggle();
 
         if(Input1.getInput() == "0"){
-            
             break;
         }
     }
