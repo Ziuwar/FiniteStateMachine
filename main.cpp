@@ -2,10 +2,10 @@
 
 int main(int argc, char** argv){
 
-    Light light;
+    Control control;
 
-    light.toggle();
-    light.toggle();
+    control.toggle();
+    control.toggle();
 
     return 0;
 }

@@ -10,9 +10,9 @@
                 "-g",
                 "${file}",
                 "-g",
-                "${fileDirname}/src/Light.cpp",
+                "./src/Control.cpp",
                 "-g",
-                "${fileDirname}/src/ConcreteLightStates.cpp",
+                "./src/ApplicationStates.cpp",
                 
                 "-L",
                 "${fileDirname}",
