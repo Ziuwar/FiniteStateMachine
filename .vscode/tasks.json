@@ -13,6 +13,8 @@
                 "./src/Control.cpp",
                 "-g",
                 "./src/ApplicationStates.cpp",
+                "-g",
+                "./src/ReadInput.cpp",
                 
                 "-L",
                 "${fileDirname}",
