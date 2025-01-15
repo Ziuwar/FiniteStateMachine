@@ -7,6 +7,7 @@ class LightOff : public ControlState
 public:
     void enter(Control* control) {}
     void toggle(Control* control);
+	void action(Control* control);
     void exit(Control* control);
     static ControlState& getInstance();
 private:
@@ -20,6 +21,7 @@ class LowIntensity : public ControlState
 public:
 	void enter(Control* control) {}
 	void toggle(Control* control);
+	void action(Control* control);
 	void exit(Control* control) {}
 	static ControlState& getInstance();
 
@@ -34,6 +36,7 @@ class MediumIntensity : public ControlState
 public:
 	void enter(Control* control) {}
 	void toggle(Control* control);
+	void action(Control* control);
 	void exit(Control* control) {}
 	static ControlState& getInstance();
 
@@ -48,6 +51,7 @@ class HighIntensity : public ControlState
 public:
 	void enter(Control* control) {}
 	void toggle(Control* control);
+	void action(Control* control);
 	void exit(Control* control) {}
 	static ControlState& getInstance();
 

@@ -8,6 +8,7 @@ public:
     Control();
     inline ControlState* getCurrentState() const {return currentState;}
     void toggle();
+    void action();
     void setState(ControlState& newState);
 private:
     ControlState* currentState;

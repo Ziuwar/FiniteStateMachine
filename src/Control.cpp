@@ -14,3 +14,7 @@ void Control::setState(ControlState& newState){
 void Control::toggle(){
     currentState->toggle(this);  // Delegate the task of determining the next state to the current state!
 };
+
+void Control::action(){
+    currentState->action(this);  // Code to execute 
+};
